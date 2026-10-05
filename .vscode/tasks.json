@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run DeepKey setup check",
+			"type": "shell",
+			"command": "C:\\Users\\user\\Desktop\\DeepKey_DL_Project\\venv\\Scripts\\python.exe",
+			"args": [
+				"C:\\Users\\user\\Desktop\\DeepKey_DL_Project\\Tests\\test_setup.py"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
