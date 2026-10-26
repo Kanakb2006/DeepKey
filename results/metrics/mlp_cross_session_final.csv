@@ -1,0 +1,2 @@
+selected_experiment,hidden_layer_sizes,learning_rate_init,alpha,early_stopping,random_state,training_samples,testing_samples,validation_macro_f1,validation_balanced_accuracy,session_2_accuracy,session_2_balanced_accuracy,session_2_macro_precision,session_2_macro_recall,session_2_macro_f1
+higher_alpha_0.01,"(128, 64)",0.0005,0.01,True,42,9876,9893,0.6754721620901026,0.6784157363104731,0.424340442737289,0.424334756676875,0.4566404612906433,0.424334756676875,0.4157951850435218

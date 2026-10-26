@@ -1,0 +1,16 @@
+model,prediction_unit,metric,mean,std_sample,n_seeds,seeds,partition_protocol,window_length
+mlp_single_attempt,single attempt,accuracy,0.5545940690325717,0.006686922261176249,5,"42,123,2026,31415,8675309",Session 1 chronological: fit <=70; embargo 71-79; validation >=80,
+mlp_single_attempt,single attempt,balanced_accuracy,0.5549792410318727,0.006676596837224027,5,"42,123,2026,31415,8675309",Session 1 chronological: fit <=70; embargo 71-79; validation >=80,
+mlp_single_attempt,single attempt,macro_precision,0.5582908206851578,0.007994678629680212,5,"42,123,2026,31415,8675309",Session 1 chronological: fit <=70; embargo 71-79; validation >=80,
+mlp_single_attempt,single attempt,macro_recall,0.5549792410318727,0.006676596837224027,5,"42,123,2026,31415,8675309",Session 1 chronological: fit <=70; embargo 71-79; validation >=80,
+mlp_single_attempt,single attempt,macro_f1,0.5445049306494315,0.008150997002017038,5,"42,123,2026,31415,8675309",Session 1 chronological: fit <=70; embargo 71-79; validation >=80,
+lstm_10_attempt,10 consecutive attempts,accuracy,0.7128644939965696,0.017253136240799997,5,"42,123,2026,31415,8675309",Session 1 chronological: fit <=70; embargo 71-79; validation >=80,10.0
+lstm_10_attempt,10 consecutive attempts,balanced_accuracy,0.7137149270482605,0.017786554652983812,5,"42,123,2026,31415,8675309",Session 1 chronological: fit <=70; embargo 71-79; validation >=80,10.0
+lstm_10_attempt,10 consecutive attempts,macro_precision,0.7191490181511051,0.026723668264350096,5,"42,123,2026,31415,8675309",Session 1 chronological: fit <=70; embargo 71-79; validation >=80,10.0
+lstm_10_attempt,10 consecutive attempts,macro_recall,0.7137149270482605,0.017786554652983812,5,"42,123,2026,31415,8675309",Session 1 chronological: fit <=70; embargo 71-79; validation >=80,10.0
+lstm_10_attempt,10 consecutive attempts,macro_f1,0.6835859852380983,0.021576763875774407,5,"42,123,2026,31415,8675309",Session 1 chronological: fit <=70; embargo 71-79; validation >=80,10.0
+gru_10_attempt,10 consecutive attempts,accuracy,0.681646655231561,0.02770034886886634,5,"42,123,2026,31415,8675309",Session 1 chronological: fit <=70; embargo 71-79; validation >=80,10.0
+gru_10_attempt,10 consecutive attempts,balanced_accuracy,0.6823735187371551,0.027785605215468346,5,"42,123,2026,31415,8675309",Session 1 chronological: fit <=70; embargo 71-79; validation >=80,10.0
+gru_10_attempt,10 consecutive attempts,macro_precision,0.6915900435919742,0.047804215106717875,5,"42,123,2026,31415,8675309",Session 1 chronological: fit <=70; embargo 71-79; validation >=80,10.0
+gru_10_attempt,10 consecutive attempts,macro_recall,0.6823735187371551,0.027785605215468346,5,"42,123,2026,31415,8675309",Session 1 chronological: fit <=70; embargo 71-79; validation >=80,10.0
+gru_10_attempt,10 consecutive attempts,macro_f1,0.6510461418326114,0.03440532287085696,5,"42,123,2026,31415,8675309",Session 1 chronological: fit <=70; embargo 71-79; validation >=80,10.0
